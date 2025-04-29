@@ -1,12 +1,24 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 APR 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 APR 2025 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.tex
-(/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.tex
+**/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.tex
+(/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
+
+/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[a4paper, margin=1in]{
+                                     geometry}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size11.clo
@@ -31,7 +43,32 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/kotex-utf/kotex.cfg) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
 Package: kotexutf 2022/06/22 v3.0.0 typesetting UTF-8 Korean documents
- (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+
+
+/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/kotex-utf/kotexutf.sty:31: LaTeX Error: Unknown option `hangulfontspec' for package `kotexutf'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \ProcessOptions\relax
+                          
+The option `hangulfontspec' was not declared in package `kotexutf', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+
+/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/kotex-utf/kotexutf.sty:31: LaTeX Error: Unknown option `nohangul' for package `kotexutf'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \ProcessOptions\relax
+                          
+The option `nohangul' was not declared in package `kotexutf', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+(/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
 \unih@ngulpoint=\count270
 \dhucs@emph@raise=\dimen142
 )
@@ -288,39 +325,44 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
+) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip67
+\thanksmargin=\skip68
+\droptitle=\skip69
 )
 \glswrite=\write3
 \glo@main@file=\write4
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 9.
+Package glossaries Info: Writing glossary file main.glo on input line 14.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box61
-) (/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.aux)
+) (/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 22.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 22.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count319
@@ -346,35 +388,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \openout3 = `main.ist'.
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `Park2024rl' on page 2 undefined on input line 53.
-
-
-LaTeX Warning: Citation `bloor2024pcgym' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Park2025pc' on page 2 undefined on input line 55.
-
-
-LaTeX Warning: Citation `chen1995benchmark' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `Yu2025ppo' on page 2 undefined on input line 57.
-
-<ref_table1.png, id=46, 900.36375pt x 218.8175pt>
+<ref_table1.png, id=49, 900.36375pt x 218.8175pt>
 File: ref_table1.png Graphic file (type png)
 <use ref_table1.png>
-Package pdftex.def Info: ref_table1.png  used on input line 63.
+Package pdftex.def Info: ref_table1.png  used on input line 74.
 (pdftex.def)             Requested size: 360.0pt x 87.49205pt.
-LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line 71.
-(/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
-File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
+ (/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.bbl
+
+[2 </Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/ref_table1.png>]
+LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
+(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 27.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 60--73
-
- []
-
-(/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.bbl)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -382,29 +406,25 @@ This document will not have a glossary.
 
 
 
-[2 </Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/ref_table1.png>] (/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.aux)
+[3] (/Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 9592 strings out of 473190
- 194788 string characters out of 5704335
- 633352 words of memory out of 5000000
- 32708 multiletter control sequences out of 15000+600000
- 580771 words of font info for 111 fonts, out of 8000000 for 9000
+ 9690 strings out of 473190
+ 196610 string characters out of 5704335
+ 636158 words of memory out of 5000000
+ 32801 multiletter control sequences out of 15000+600000
+ 583630 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,7n,79p,2443b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/uhc/umj/umj02.pfb>
-Output written on /Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/Proposal/main.pdf (2 pages, 1882357 bytes).
+ 78i,7n,79p,2451b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
+Output written on /Users/jaehyunoh/Desktop/대학원/2025-1/강화학습/Project/RL_CSTR/proposal/main.pdf (3 pages, 2350274 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 298 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
