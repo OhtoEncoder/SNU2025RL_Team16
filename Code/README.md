@@ -2,7 +2,6 @@
 
 
 ```
-### Pseudocode: Discrete Flow Control of Van de Vusse CSTR
 Initialize CSTR environment with state [C_A, C_B]
 Define action space: ΔF ∈ {-2, -1, 0, +1, +2}
 Define reward: r = C_B − 0.01 × F
