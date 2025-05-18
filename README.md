@@ -8,9 +8,8 @@
 
 ## 📌 Repository Highlights
  
-	•	🔁 Supports Multi-Action RL Control
+	•	🔁 Supports RL Control on Chemical CSTR Reactor
 	•	🔬 Includes Complex Reaction Kinetics (Van de Vusse)
-	•	🧠 Compares DQN vs A2C performance
 	•	🧪 Visualizes learning curve and state trajectory for interpretability
 
 
