@@ -7,7 +7,8 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -21,25 +22,38 @@
 \BIBdecl
 
 \bibitem{MaximilianB2pcgym}
-MaximilianB2, ``pc-gym: Process control environments for reinforcement learning,'' \url{https://github.com/MaximilianB2/pc-gym/tree/main}, accessed: 2025-04-29.
+MaximilianB2, ``pc-gym: Process control environments for reinforcement
+  learning,'' \url{https://github.com/MaximilianB2/pc-gym/tree/main}, accessed:
+  2025-04-29.
 
 \bibitem{Park2024rl}
-박준수, ``강화학습 기반 화학 공정 제어 성능 향상을 위한 보상 함수 시뮬레이션 연구,'' \emph{제어 로봇 시스템학회 논문지}, 2024.
+박준수, ``강화학습 기반 화학 공정 제어 성능 향상을 위한
+  보상 함수 시뮬레이션 연구,'' \emph{제어 로봇 시스템학회
+  논문지}, 2024.
 
 \bibitem{Yu2025ppo}
 \BIBentryALTinterwordspacing
-M.~Yu, B.~Li, S.~Zhao, N.~Roy, and B.~Zhang, ``Ppo-based resilient control framework for safer operation of exothermic cstr,'' \emph{Process Safety and Environmental Protection}, vol. 193, pp. 558--576, 2025. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S0957582024014721}
+M.~Yu, B.~Li, S.~Zhao, N.~Roy, and B.~Zhang, ``Ppo-based resilient control
+  framework for safer operation of exothermic cstr,'' \emph{Process Safety and
+  Environmental Protection}, vol. 193, pp. 558--576, 2025. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0957582024014721}
 \BIBentrySTDinterwordspacing
 
 \bibitem{bloor2024pcgym}
 \BIBentryALTinterwordspacing
-M.~Bloor, J.~Torraca, and C.~Tsay, ``Pc-gym: Benchmark environments for process control problems,'' \emph{arXiv preprint arXiv:2410.22093}, 2024. [Online]. Available: \url{https://arxiv.org/abs/2410.22093}
+M.~Bloor, J.~Torraca, and C.~Tsay, ``Pc-gym: Benchmark environments for process
+  control problems,'' \emph{arXiv preprint arXiv:2410.22093}, 2024. [Online].
+  Available: \url{https://arxiv.org/abs/2410.22093}
 \BIBentrySTDinterwordspacing
 
 \bibitem{chen1995benchmark}
-H.~Chen, H.~Kremling, and F.~Allgöwer, ``Nonlinear predictive control of a benchmark cstr,'' \emph{Proceedings of the 3rd European Control Conference, Rome-Italy.}, pp. 3247--3252, 01 1995.
+H.~Chen, H.~Kremling, and F.~Allgöwer, ``Nonlinear predictive control of a
+  benchmark cstr,'' \emph{Proceedings of the 3rd European Control Conference,
+  Rome-Italy.}, pp. 3247--3252, 01 1995.
 
 \bibitem{Park2025pc}
-J.~Park, H.~Jung, J.~W. Kim, and J.~M. Lee, ``Reinforcement learning for process control: Review and benchmark problems,'' \emph{International Journal of Control, Automation and Systems}, vol.~23, pp. 1--40, 2025.
+J.~Park, H.~Jung, J.~W. Kim, and J.~M. Lee, ``Reinforcement learning for
+  process control: Review and benchmark problems,'' \emph{International Journal
+  of Control, Automation and Systems}, vol.~23, pp. 1--40, 2025.
 
 \end{thebibliography}
